@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from xss.
+
 
 urlpatterns = patterns('',
     # Examples:
@@ -11,5 +11,5 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += patterns('',
-        (r'^xss/', include('demo_project.xss.urls')),
+        (r'^xss/', include('xss.urls')),
 )        
